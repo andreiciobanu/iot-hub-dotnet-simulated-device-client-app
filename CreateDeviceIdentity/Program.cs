@@ -16,7 +16,7 @@
         private const string TelemetryKey = "telemetry";
         private const string InstrumentationKey = "instrumentationKey";
         private static Telemetry TelemetryClient;
-        private static readonly Configuration Config = ConfigurationManager.OpenExeConfiguration(System.IO.Path.Combine(
+        private static readonly System.Configuration.Configuration Config = ConfigurationManager.OpenExeConfiguration(System.IO.Path.Combine(
             Environment.CurrentDirectory, System.Reflection.Assembly.GetExecutingAssembly().ManifestModule.Name));
 
         private static void Main(string[] args)

@@ -3,9 +3,9 @@
     using System;
     using System.Threading.Tasks;
     using System.Text;
-    using Microsoft.ServiceBus.Messaging;
     using System.Threading;
     using System.Linq;
+    using Microsoft.ServiceBus.Messaging;
 
     public class Program
     {
